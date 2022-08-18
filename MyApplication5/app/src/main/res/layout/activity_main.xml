@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3A1313"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/A3GRAD"
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
+        android:layout_alignEnd="@+id/A1name"
+        android:layout_alignBottom="@+id/A1name"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="-254dp"
+        android:text="grade"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/A1name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Age2"
+        android:layout_alignBottom="@+id/Age2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="213dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="105dp"
+        android:text="name"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/Age2"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="368dp"
+        android:text="age"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="101dp"
+        android:layout_height="79dp"
+        android:layout_alignEnd="@+id/A1name"
+        android:layout_alignBottom="@+id/A1name"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="47dp"
+        android:background="#952424"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/A3GRAD"
+        android:layout_alignBottom="@+id/A3GRAD"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="-117dp"
+        android:text="Button" />
+
+</RelativeLayout>
